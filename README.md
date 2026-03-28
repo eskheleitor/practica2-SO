@@ -77,8 +77,8 @@ El script permite:
 
 ## 👥 Autores
 
-* Nombre 1
-* Nombre 2
+* Ander Zuazquita
+* Lucia Castellanos
 
 ---
 
