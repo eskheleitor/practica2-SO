@@ -1,21 +1,16 @@
 #!/usr/bin/env bash
 
-echo "Compilando..."
+echo "compilando..."
 g++ main.cpp -o pinza
-
-echo "Ejecutando..."
+echo "ejecutando..."
 ./pinza &
-
 PID=$!
-
 echo "PID: $PID"
-
 wait $PID
-
 if ps -p $PID > /dev/null
 then
-    echo "Sigue activo, terminando..."
+    echo "sigue activo, terminando..."
     kill $PID
 else
-    echo "Finalizado correctamente"
+    echo "finalizado correctamente"
 fi
