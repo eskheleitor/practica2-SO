@@ -1,7 +1,7 @@
 # practica2-SO
-# 📊 Práctica 2 - Procesamiento de Datos de Sensores en C++
+# Práctica 2 - Procesamiento de Datos de Sensores en C++
 
-## 📌 Descripción
+## Descripción
 
 En esta práctica se desarrolla un programa en C++ capaz de procesar datos provenientes de sensores de una pinza robótica.
 
@@ -15,7 +15,7 @@ A partir de estos datos se calcula la estabilidad del agarre del sistema robóti
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 * Lectura de datos desde archivo (`datos_pinza.txt`)
 * Almacenamiento en arrays y matrices
@@ -25,7 +25,7 @@ A partir de estos datos se calcula la estabilidad del agarre del sistema robóti
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 practica2/
@@ -38,7 +38,7 @@ practica2/
 
 ---
 
-## ▶️ Cómo ejecutar
+## Cómo ejecutar
 
 ### Compilar
 
@@ -54,7 +54,7 @@ g++ main.cpp -o pinza
 
 ---
 
-## 🧪 Ejemplo de salida
+## Ejemplo de salida
 
 ```
 Media galga: 0.238
@@ -65,7 +65,7 @@ Estado muestra: ESTABLE
 
 ---
 
-## 🖥️ Script Bash
+## Script Bash
 
 El script permite:
 
@@ -75,14 +75,14 @@ El script permite:
 
 ---
 
-## 👥 Autores
+## Autores
 
-* Ander Zuazquita
-* Lucia Castellanos
+* Ander Zuazquita Pastor
+* Lucia Castellanos Paz
 
 ---
 
-## 📅 Asignatura
+## Asignatura
 
 Programación en C++
 Grado en Tecnologías Digitales para la Empresa
