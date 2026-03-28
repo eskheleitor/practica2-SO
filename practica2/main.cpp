@@ -35,7 +35,10 @@ int main() {
         //mostrar datos :
         cout<<"Datos leidos:"<<endl;
         for(int i=0;i<n;i++){
-            cout<<"ID:"<<ids[i]<<"Galga:"<<galga[i]<<"Fuerza izquierda:"<<fuerza_izq[i]<<"Fuerza derecha:"<<fuerza_der[i]<<endl;
+            cout<<"ID: "<<ids[i]
+                <<" Galga: "<<galga[i]
+                <<" Fuerza izquierda: "<<fuerza_izq[i]
+                <<" Fuerza derecha: "<<fuerza_der[i]<<endl;
         }
 
         //calcular media de cada sensor:
@@ -60,19 +63,26 @@ int main() {
         archivo_salida<<"Resultados de pinza:"<<endl;
         archivo_salida<<"datos:"<<endl;
         for(int i=0;i<n;i++){
-            archivo_salida<<"ID:"<<ids[i]<<" Galga:"<<galga[i]<<" Fuerza izquierda:"<<fuerza_izq[i]<<" Fuerza derecha:"<<fuerza_der[i]<<endl;
+            archivo_salida<<"ID:"<<ids[i]
+                          <<" Galga:"<<galga[i]
+                          <<" Fuerza izquierda:"<<fuerza_izq[i]
+                          <<" Fuerza derecha:"<<fuerza_der[i]<<endl;
         }
+        archivo_salida<<"\nMedias:\n";
+        archivo_salida<<"Galga = "<<media_galga<<endl;
+        archivo_salida<<"Fuerza izquierda = "<<media_izq<<endl;
+        archivo_salida<<"Fuerza derecha = "<<media_der<<endl;
+        
 
 
         //evaluar la estabilidad del agarre de la pinza:
-        archivo_salida<<"Evaluar la estabilidad:"<<endl;//corregir
+        archivo_salida<<"Clasificacion:"<<endl;//corregir
         for(int i=0;i<n;i++){
             float diferencia=abs(fuerza_izq[i]-fuerza_der[i]);
             if(diferencia>0.15){
                 archivo_salida<<ids[i]<<"  inestable"<<endl;
                 cout<<ids[i]<<" inestable"<<endl;
-            }
-            else{
+            }            else{
                 archivo_salida<<ids[i]<<"  estable"<<endl;
                 cout<<ids[i]<<" estable"<<endl;
             }

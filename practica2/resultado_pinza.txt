@@ -100,7 +100,12 @@ ID:4166 Galga:0.248 Fuerza izquierda:1.817 Fuerza derecha:1.841
 ID:15986 Galga:0.207 Fuerza izquierda:1.45 Fuerza derecha:1.492
 ID:11247 Galga:0.258 Fuerza izquierda:1.863 Fuerza derecha:1.819
 ID:6843 Galga:0.238 Fuerza izquierda:1.666 Fuerza derecha:1.71
-Evaluar la estabilidad:
+
+Medias:
+Galga = 0.236
+Fuerza izquierda = 1.71876
+Fuerza derecha = 1.72284
+Clasificacion:
 5118  estable
 6574  estable
 18852  estable
