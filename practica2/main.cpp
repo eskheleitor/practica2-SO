@@ -69,12 +69,12 @@ int main() {
         for(int i=0;i<n;i++){
             float diferencia=abs(fuerza_izq[i]-fuerza_der[i]);
             if(diferencia>0.15){
-                archivo_salida<<ids[i]<<"inestable";
-                cout<<ids[i]<<"inestable"<<endl;
+                archivo_salida<<ids[i]<<"  inestable"<<endl;
+                cout<<ids[i]<<" inestable"<<endl;
             }
             else{
-                archivo_salida<<ids[i]<<"estable";
-                cout<<ids[i]<<"estable"<<endl;
+                archivo_salida<<ids[i]<<"  estable"<<endl;
+                cout<<ids[i]<<" estable"<<endl;
             }
         }
         archivo_salida.close(); //cerramos el archivo de salida
