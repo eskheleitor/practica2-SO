@@ -22,7 +22,7 @@ int main() {
         int n=0; //contador de datos
         //lectura del archivo:
         
-        while(archivo>>ids[n]>>galga[n]>>fuerza_izq[n]>>fuerza_der[n]){ //leer los datos del archivo pinza.txt
+        while(n<100 && archivo>>ids[n]>>galga[n]>>fuerza_izq[n]>>fuerza_der[n]){ //leer los datos del archivo pinza.txt
             //guardamos losd datos en una matriz:
             datos[n][0]=galga[n];
             datos[n][1]=fuerza_izq[n];
