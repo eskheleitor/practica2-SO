@@ -84,6 +84,6 @@ El script permite:
 
 ## Asignatura
 
-Programación en C++
+Sistemas operativos,
 Grado en Tecnologías Digitales para la Empresa
 Universidad de Burgos
